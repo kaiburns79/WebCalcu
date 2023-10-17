@@ -9,7 +9,6 @@ export default function Calculator() {
 
   const handleClick = (e) => {
     const buttonName = e.target.name;
-  
     if (isNaN(buttonName)) {
       // If an operator button is clicked
       if (selectedOperator && selectedOperator !== buttonName) {
